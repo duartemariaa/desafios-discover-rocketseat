@@ -25,17 +25,31 @@ body{
 .sidebar-header{
     padding: 10px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+}
+
+.sidebar-header a img{
+    background-color: #18c29c;
+    width: 100%;
+    padding-left: 105px;
 }
 
 .sidebar-menu{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: space-around;
+    /*gap: 10px;*/
 }
 
-.sidebar-menu button{
-    background-color: none;
+.sidebar-menu a{
+    background-color: #18c29c;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sidebar-menu-item{
+    display: flex;
+    align-items: center;
 }
 

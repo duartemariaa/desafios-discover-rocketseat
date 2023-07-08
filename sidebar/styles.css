@@ -30,19 +30,35 @@ body{
 
 .sidebar-header-button{
     all: unset;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sidebar-header-button:hover{
+    background-color: #8ed7c6;
+    border-radius: 10px;
+    padding: 4px;
 }
 
 .sidebar-menu{
    display: flex;
    flex-direction: column;
+   gap: 8px;
+   width: 100%;
+   padding: 10px;
 }
 
 .sidebar-menu-item {
     display: flex;
-    margin: 20px 0 0 12px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    gap: 13px;
 }
-.sidebar-menu-item img {
-    margin-right: 20px;
+
+.sidebar-menu-item:hover {
+    background-color: #8ed7c6;
+    border-radius: 10px;
 }
 
 .sidebar-footer{
@@ -52,6 +68,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 7px;
+    cursor: pointer;
 }
 
 .sidebar-footer-user-photo{
@@ -64,10 +81,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    
-}
-
-.sidebar-footer-user-name{
     
 }
 

@@ -54,6 +54,7 @@ body{
     padding: 10px;
     width: 100%;
     gap: 13px;
+    visibility: visible;
 }
 
 .sidebar-menu-item:hover {

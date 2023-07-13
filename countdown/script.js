@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const lancamento = "1 Jan 2024";
+const lancamento = "6 Nov 2023";
 
 function countdown() {
     const lancamentoDate = new Date(lancamento);

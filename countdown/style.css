@@ -12,18 +12,26 @@ body {
 
 .body-images {
     width: 100%;
+    height: auto;
 }
 
-main {
+.main-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-around;  
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media (max-width: 800px){
+    .main-container {
+        flex-direction: column;
+        gap: 80px;
+    }
 }
 
 .imagem-rocket {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
+    width: 500px;
     height: auto;
     margin: auto;
 }
@@ -34,6 +42,12 @@ main {
     align-items: center;
     gap: 30px;
     margin: auto;
+}
+
+@media (max-width:900px){
+    #container{
+        width: auto;
+    }
 }
 
 .title {
@@ -55,13 +69,14 @@ main {
 
 .time {
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1;
 }
 
 .text {
     color: #9c9ab6;
     padding-bottom: 15px;
+    margin: auto;
 }
 
 #container button {

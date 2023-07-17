@@ -12,15 +12,13 @@ body {
 
 .body-images {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .main-container {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
 }
 
 @media (max-width: 800px){
@@ -29,9 +27,12 @@ body {
         gap: 80px;
     }
 }
+.imagem {
+    width: 400px;
+}
 
 .imagem-rocket {
-    width: 500px;
+    width: 100%;
     height: auto;
     margin: auto;
 }

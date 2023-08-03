@@ -41,6 +41,7 @@ body{
     height: 26px;
     border-radius: 50%;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 

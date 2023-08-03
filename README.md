@@ -29,8 +29,8 @@
 
 ## 4 - CountDown
  <br>
- <div style="text-align:center;">
-     <img align-items="center" width="400" src="https://github.com/duartemariaa/desafios-discover-rocketseat/assets/107371314/95494af8-84c2-4740-ab01-e1dbe3ccdc63"/>
+ <div>
+     <img width="400" src="https://github.com/duartemariaa/desafios-discover-rocketseat/assets/107371314/e6385151-2976-44eb-b767-6262aebaf0c7">
  </div>
  <br>
  
@@ -41,7 +41,7 @@
 ## 5 - Side Bar
 <br>
 <div>
- <img width="400" src="https://github.com/duartemariaa/desafios-discover-rocketseat/assets/107371314/010f4a93-c787-4a5c-980a-1a71f2660e4f">
+ <img width="400" src="https://github.com/duartemariaa/desafios-discover-rocketseat/assets/107371314/8d24726e-2564-4c1d-b999-b5d52dfb9595">
 </div>
 <br>
 
@@ -50,6 +50,11 @@
        • JavaScript
 
 ## 6 - Theme Switcher
+<br>
+<div>
+ <img width="400" src="https://github.com/duartemariaa/desafios-discover-rocketseat/assets/107371314/7dc7ecd5-b96b-4a75-af39-3016d509f0cb">
+</div>
+<br>
 
        • HTML
        • CSS

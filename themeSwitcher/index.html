@@ -8,10 +8,12 @@
     <title>Theme Switcher</title>
 </head>
 <body>
-    <button class="main-button" onclick="toggleBackground()">
-        <img class="main-button-moon-img" src="imgs/moon.svg" alt="">
-        <img class="main-button-sun-img" src="imgs/sun.svg" alt="">
-    </button>
+    <label class="toggle-button">
+        <img class="toggle-icon-moon" src="imgs/moon.svg" alt="">
+        <input type="checkbox" id="toggle">
+        <span class="slider" onclick="toggleBackground()"></span>
+        <img class="toggle-icon-sun" src="imgs/sun.svg" alt="">
+    </label>
 </body>
     <script src="script.js"></script>
 </html>

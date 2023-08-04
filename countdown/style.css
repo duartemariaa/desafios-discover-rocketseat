@@ -17,8 +17,9 @@ body {
 
 .main-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    
 }
 
 @media (max-width: 800px){
@@ -27,12 +28,9 @@ body {
         gap: 80px;
     }
 }
-.imagem {
-    width: 400px;
-}
 
 .imagem-rocket {
-    width: 100%;
+    width: 400px;
     height: auto;
     margin: auto;
 }

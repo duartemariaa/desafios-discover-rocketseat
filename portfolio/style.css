@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22212C;
+    color: #837E9F;
+    display: flex;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.profile {
+    width: 348px;
+    height: 292px;
+    background-color: #302F3D;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    width: 110px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+.profile-username {
+    font-size: 23px;
+}
+
+.profile-ocupation {
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.links {
+    width: 348px;
+    height: 348px;
+    background-color: #302F3D;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links-items {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #837E9F;
+}
+
+.technologies {
+    width: 348px;
+    height: 208px;
+    background-color: #302F3D;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.experiences {
+    width: 348px;
+    height: 329px;
+    background-color: #302F3D;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.education {
+    width: 348px;
+    height: 352px;
+    background-color: #302F3D;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+main {
+    flex: 2;
+}
+

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ body {
     background-color: #22212C;
     color: #837E9F;
     display: flex;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 aside {
@@ -15,7 +18,7 @@ aside {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px; 
+    gap: 20px; 
 }
 
 .profile {
@@ -85,13 +88,16 @@ aside {
 
 .technologies a {
     text-decoration: none;
-    width: 85px;
+    width: 86px;
     height: 24px;
-    padding-top: 3px;
+    padding: 6px;
     border-radius: 15px;
     background-color: #CB92B1;
     text-align: center;
+    text-transform: uppercase;
     color: #000000;
+    font-weight: bold;
+    font-size: x-small;
 }
 
 .experiences {
@@ -107,7 +113,7 @@ aside {
     height: 352px;
     background-color: #302F3D;
     border-radius: 15px;
-    padding: 10px;
+    padding: 20px;
 }
 
 main {

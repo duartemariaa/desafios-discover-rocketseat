@@ -72,7 +72,26 @@ aside {
     height: 208px;
     background-color: #302F3D;
     border-radius: 15px;
-    padding: 10px;
+    padding: 20px;
+}
+
+.technologies-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.technologies a {
+    text-decoration: none;
+    width: 85px;
+    height: 24px;
+    padding-top: 3px;
+    border-radius: 15px;
+    background-color: #CB92B1;
+    text-align: center;
+    color: #000000;
 }
 
 .experiences {
@@ -80,7 +99,7 @@ aside {
     height: 329px;
     background-color: #302F3D;
     border-radius: 15px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .education {

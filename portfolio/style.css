@@ -14,10 +14,10 @@ body {
 }
 
 aside {
-    flex: 1;
-    padding: 20px;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    padding: 20px;
     gap: 20px; 
 }
 
@@ -124,5 +124,39 @@ aside {
 
 main {
     flex: 2;
+    padding: 20px;
 }
 
+.myprojects {
+    background-color: #302F3D;
+    width: 700px;
+    height: 86px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.myprojects-title {
+    text-decoration: none;
+    color: #837E9F;
+    font-weight: bold;
+}
+
+.myprojects-link {
+    text-decoration: none;
+    color: #837E9F;
+    font-size: small;
+}
+
+.recentposts {
+    background-color: #302F3D;
+    width: 700px;
+    height: 86px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}

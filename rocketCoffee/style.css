@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,24 +9,27 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     height: 100vh;
     background-color: #000000;
+    font-family: 'Manrope', sans-serif;
 }
 
 .header {
     display: flex;
-    width: 700px;
-    margin: auto;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.header-logo {
+    margin: auto;
 }
 
 .header-menu {
-    width: 100%;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .header-menu-item {
@@ -36,9 +41,32 @@ body {
     all: unset;
     color: #FFFFFF;
     border: solid #8257E5;
-    width: 150px;
+    border-radius: 5px;
+    width: 210px;
+    height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-small;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .title {
+    font-size: 3em;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.first-title {
     color: white;
+}
+
+.second-title {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #8257E5;
+}
+
+.rocket-coffee-image {
+    max-width: 100%;
+    height: auto;
 }

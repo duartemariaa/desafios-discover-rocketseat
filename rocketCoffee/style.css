@@ -7,9 +7,11 @@
 }
 
 body {
-    height: 100vh;
     background-color: #000000;
     font-family: 'Manrope', sans-serif;
+    background-image: url(imgs/blur-2.png), url(imgs/blur-1.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, bottom left;
 }
 
 .main-container {
@@ -17,25 +19,21 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /*width: 100%;*/
+    width: 100%;
     padding: 24px;
-}
-
-.header-logo {
-    margin: auto;
 }
 
 .header-menu {
     display: flex;
     align-items: center;
-    gap: 32px;
+    justify-content: space-between;
+    width: 40%;
 }
 
 .header-menu-item {
@@ -75,25 +73,12 @@ body {
 }
 
 .second-title {
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #8257E5;
+    text-shadow: -1px -1px 0 #8257E5, 1px -1px 0 #8257E5, -1px 1px 0 #8257E5, 1px 1px 0 #8257E5;
 }
 
 .rocket-coffee-image {
     max-width: 100%;
     height: auto;
     bottom: 0;
-    position: relative;
 }
 
-.left-img {
-    bottom: 0;
-    left: 0;
-    position: absolute;
-}
-
-.right-img {
-    top: 0;
-    right: 0;
-    position: absolute;
-}

@@ -21,9 +21,13 @@
        • HTML
        • CSS
 
+## 3 - Rocket Coffee
+<br>
+<div>
+ <img width="400" src="https://github.com/duartemariaa/desafios-discover-rocketseat/assets/107371314/96841b3d-3dcd-4fd2-9f93-a849e2fc054f">
+</div>
+<br>
 
-## 3 - RocketNews
- 
        • HTML
        • CSS
 
@@ -56,9 +60,7 @@
 </div>
 <br>
 
-       • HTML
-       • CSS
-       • JavaScript
+
    
    
 

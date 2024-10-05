@@ -60,7 +60,9 @@
 </div>
 <br>
 
-
+       • HTML
+       • CSS
+       • JavaScript
    
    
 

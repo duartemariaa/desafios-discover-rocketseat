@@ -6,44 +6,37 @@
     box-sizing: border-box;
 }
 
-main {
+body {
     font-family: 'League Spartan', sans-serif;
     display: flex;
-}
-
-@media (max-width: 800px){
-    main{
-        display: flex;
-        flex-direction: column;
-    }
+    height: 100vh;
+    width: 100vw;
 }
 
 .container {
     background-color: #121214;
     padding-left: 20px;
     height: 100vh;
-    position: relative;
+    width: 100vw;
 }
 
 .logo {
     width: 300px;
     padding-top: 20px;
+    margin-bottom: 70px;
 }
 
-.main-container {
-    padding-top: 55px;
-    line-height: 30px;
-}
-
-.main-container h2{
+.text-container h2{
     color: #04d361;
+    margin-bottom: 10px;
 }
 
-.main-container p:nth-child(2){
+.text-container p:nth-child(2){
     color: #e1e1e6;
+    margin-bottom: 10px;
 }
 
-.main-container p:nth-child(3), .main-container p:nth-child(4) {
+.text-container p:nth-child(3), .text-container p:nth-child(4) {
     color: #a8a8a8;
 }
 
@@ -59,50 +52,67 @@ main {
     border-radius: 50%;
 }
 
-.second-container{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.form-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
 }
 
-.input-container p {
-    padding-top: 20px;
+.form-container label {
+    display: block;
     color: #a8a8a8;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    box-shadow: 15px 15px 15px rgb(37, 27, 44, 0.5);
+    width: 120%;
 }
 
 .input-container input {
-    height: 55px;
-    width: 600px;
+    height: 40px;
+    width: 900px;
+    font-size: 15px;
+    padding-left: 10px;
 }
 
-.input-box{
-    position: absolute;
-    display: flex;
-}
-
-.input-box-send-img{
-    position: relative;
+.input-btn-img{
     background-color: #8257e5;
-    fill: #e1e1e6;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
 }
 
 .link-container {
-    position: absolute;
     display: flex;
-    justify-items: center;
+    align-items: center;
     gap: 10px;
+    margin-top: 100px;
 }
 
 .link-container a{
     text-decoration: none;
     color: #8257e5;
+    font-weight: bold;
 }
 
 .link-container img {
     background-color: #8257e5;
+    background-size: contain;
 }
 
-.image img{
+.image {
+    background-image: url('img/read_news.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
+
+

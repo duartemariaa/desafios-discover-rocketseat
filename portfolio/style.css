@@ -65,6 +65,10 @@ aside {
    gap: 15px;
 }
 
+.links-items img {
+    filter: brightness(0) saturate(100%) invert(54%) sepia(7%) saturate(1162%) hue-rotate(209deg) brightness(93%) contrast(87%);
+}
+
 .links-card a{
     text-decoration: none;
     color: #837E9F;
@@ -102,7 +106,6 @@ aside {
 
 .education-card {
     width: 348px;
-    height: 352px;
     background-color: #302F3D;
     border-radius: 15px;
     padding: 20px;
@@ -122,6 +125,28 @@ aside {
     margin-left: 20px;
 }
 
+.experience-card {
+    width: 348px;
+    background-color: #302F3D;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.experience-container-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0 0 20px;
+    gap: 10px;
+}
+
+.experience-item span {
+    opacity: 0.5;
+    font-size: small;
+    margin-left: 20px;
+}
+
+
 main {
     flex: 2;
     padding: 20px;
@@ -129,13 +154,13 @@ main {
 
 .myprojects {
     background-color: #302F3D;
-    width: 700px;
-    height: 86px;
     border-radius: 15px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+
+    margin-bottom: 25px;
 }
 
 .myprojects-title {
@@ -150,13 +175,63 @@ main {
     font-size: small;
 }
 
-.recentposts {
+.projects-cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
     background-color: #302F3D;
-    width: 700px;
-    height: 86px;
     border-radius: 15px;
-    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 29.3em;
+}
+
+.project-title {
     display: flex;
     align-items: center;
-    padding: 20px;
+    gap: 15px;
+}
+
+.project-title img {
+    filter: brightness(0) saturate(100%) invert(54%) sepia(7%) saturate(1162%) hue-rotate(209deg) brightness(93%) contrast(87%);
+}
+
+.project-title a {
+    text-decoration: none;
+    color: #837E9F;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.project-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.project-star-icon, .project-branch-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: small;
+}
+
+.project-star-icon img, .project-branch-icon img {
+    filter: brightness(0) saturate(100%) invert(54%) sepia(7%) saturate(1162%) hue-rotate(209deg) brightness(93%) contrast(87%);
+}
+
+.project-languages {
+    font-weight: bold;
+    font-size: small;
 }

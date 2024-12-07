@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.login-container {
+    font-family: "Poppins", sans-serif;
+    background-color: #24221f;
+    color: #afb6c2;
+    padding: 40px 90px;
+}
+
+.title {
+    display: flex;
+    gap: 10px;
+}
+
+.title h1 {
+    color: #d4ccb6;
+    font-size: large;
+    font-weight: 600;
+}
+
+.login-content p {
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.input-area label {
+    font-size: small;
+    font-weight: 500;
+}
+
+.input-area input{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px 37px;
+    outline: none;
+    background: transparent;
+    color: #afb6c2; 
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid #afb6c2;
+}
+
+.input-area input:focus {
+    border: 2px solid #ffc632;
+}
+
+#email {
+    background: url(../assets/mail.svg) no-repeat 10px;
+}
+
+#email:focus {
+    background: url(../assets/mail-focus.svg) no-repeat 10px;
+}
+
+#password {
+    background: url(../assets/lock.svg) no-repeat 10px;
+}
+
+#password:focus {
+    background: url(../assets/lock-focus.svg) no-repeat 10px;
+}
+
+.checkbox-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.checkbox-area div {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-area input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #afb6c2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkbox-area input[type="checkbox"]:checked {
+    background-color: #ffc632;
+    /* color: #fff; */
+}
+
+.checkbox-area label {
+    font-size: small;
+    margin-left: 5px;
+}
+
+.checkbox-area a {
+    text-decoration: none;
+    color: #ffc632;
+    font-weight: 500;
+    font-size: small;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc632;
+    color: #473404;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup-text {
+    font-size: x-small;
+    color: #ffc632;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-text a {
+    text-decoration: none;
+    color: #ffc632;
+    font-weight: bolder;
+}
+
+

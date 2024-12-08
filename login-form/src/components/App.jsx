@@ -8,12 +8,16 @@ function App() {
 
   return (
     <div className='app-container'>
-      <div className='login-left'>
-        <Logo/>
-        <Login/>
+      <div className='left-container'>
+        <header>
+          <Logo/>
+        </header>
+        <div className='login'>
+          <Login/>
+        </div>
       </div>
-      <div className='login-rigth'>
-        <img src={sideImage} alt="" />
+      <div className='right-container'>
+        <img src={sideImage} alt=""/>
       </div>
     </div>
   )

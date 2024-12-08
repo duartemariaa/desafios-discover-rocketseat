@@ -5,6 +5,7 @@
     background-color: #24221f;
     color: #afb6c2;
     padding: 40px 90px;
+    max-width: 550px;
 }
 
 .title {
@@ -84,8 +85,7 @@
 }
 
 .checkbox-area input[type="checkbox"]:checked {
-    background-color: #ffc632;
-    /* color: #fff; */
+    background: url(../assets/check.svg), #ffc632;
 }
 
 .checkbox-area label {
